@@ -44,7 +44,7 @@ After a document is uploaded and Paperless has OCR text, the API can suggest met
 ```bash
 ollama pull mistral
 
----
+```
 
 ### 2. Paperless-ngx (Docker)
 
