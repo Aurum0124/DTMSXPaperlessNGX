@@ -26,13 +26,32 @@ git clone https://github.com/Aurum0124/DTMSXPaperlessNGX.git
 cd DTMSXPaperlessNGX
 ```
 
+## 2. Ollama — AI content suggestions
+
+After a document is uploaded and Paperless has OCR text, the API can suggest metadata from the document body using **Ollama** (`/api/document-summary/{id}`). This is used in the post-upload tracking modal.
+
+| Suggestion | Applied to |
+|------------|------------|
+| **Titles** (up to 3) | Paperless document title |
+| **Document type** | Paperless native document type (matched against types you define in **Admin → Settings → Document types**) |
+| **Submitted by / correspondent** (sender or organization) | **Submitted By** custom field (inferred from letter content; OCR also checks `From:` lines). Document list **Correspondent** search uses this same field. |
+
+### Install Ollama
+
+1. Install from [https://ollama.com](https://ollama.com).
+2. Pull the model configured in `.env` (default `mistral`):
+
+```bash
+ollama pull mistral
+
 ---
 
-## 2. Paperless-ngx (Docker)
+### 2. Paperless-ngx (Docker)
 
 ```bash
 cd paperless
 docker compose up -d
+
 ```
 
 Wait until Paperless is ready, then open **http://localhost:8080** and complete the first-run wizard (admin user for Paperless).
