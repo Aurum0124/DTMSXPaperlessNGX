@@ -52,8 +52,11 @@ are also editable and selectable, in case OCR fails to read the document.
 ## Document Barcode
 
 <p align="center">
-  <img src="assets/cp.png" width="100%">
+  <img src="assets/32.png" width="100%">
 </p>
+
+The system can generate a printable barcode, which can then be stamped to the
+physical document.
 
 ## Document Search
 
@@ -64,3 +67,7 @@ are also editable and selectable, in case OCR fails to read the document.
 <p align="center">
   Documents can be searched using their tracking Code, title, document content and correspondent.
 </p>
+
+## Document Release Types
+
+
