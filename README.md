@@ -79,5 +79,20 @@ physical document.
 </p>
 
 <p align="center">
-  <img src="assets/36.png" width="100%">
+  <img src="assets/digital_release2.png" width="100%">
 </p>
+
+<p align="center">
+   Digital First, meaning the digital document will be sent to the
+Office selected and physical copy will still follow.
+</p>
+
+<p align="center">
+  <img src="assets/digital_release3.png" width="100%">
+</p>
+
+<p align="center">
+  Digital Only, meaning the digital document will be sent to
+the Office selected and the document will be then be archived to the office who released it
+</p>
+
