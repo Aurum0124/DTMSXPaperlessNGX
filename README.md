@@ -37,3 +37,7 @@ release
   The system will suggest the Document Title, Document Info and Submitted by, which
 are also editable and selectable, in case OCR fails to read the document.
 </p>
+
+## Document Filters and Search by
+
+
