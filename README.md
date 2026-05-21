@@ -1,6 +1,6 @@
 # Document Tracking and Management System X PaperlessNGX
 
-A modern document management and tracking system built with React, designed for government workflows and integrated with Paperless-ngx.
+A modern document tracking and management system, designed for the PGIN.
 
 ## Public Tracker
 
@@ -16,4 +16,13 @@ A modern document management and tracking system built with React, designed for 
 </p>
 
 
+## Offices Main Interface
+
+<p align="center">
+  <img src="assets/30.png" width="80%">
+</p>
+
+<p align="center">
+  P
+</p>
 
