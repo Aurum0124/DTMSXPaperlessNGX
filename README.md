@@ -30,7 +30,7 @@ release
 ## Document AI Suggestions
 
 <p align="center">
-  <img src="assets/documentinfo.png" width="100%">
+  <img src="assets/document info.png" width="100%">
 </p>
 
 <p align="center">
