@@ -130,7 +130,7 @@ See `frontend/vite.config.js` for the full proxy list.
 1. Sign in at **http://localhost:5173/login** with `admin` / `admin`.
 2. You are redirected to **Admin** (`/admin`).
 3. Open **Settings** and configure Paperless custom fields (tracking code, status, archiving, etc.).
-4. Under **Offices**, create department accounts and link them to Paperless tags.
+4. Under **Offices**, create department accounts.
 5. Sign in as an office user to use **http://localhost:5173/{username}** (e.g. `/pgin-receiving`).
 6. Public tracking is at **http://localhost:5173/tracker**.
 
