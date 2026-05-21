@@ -79,7 +79,8 @@ physical document.
 </p>
 
 <p align="center">
-  <img src="assets/digital_release2.png" width="100%">
+  <img src="assets/digital_release2.png" width="49%">
+  <img src="assets/digital_release3.png" width="49%">
 </p>
 
 <p align="center">
@@ -88,11 +89,26 @@ Office selected and physical copy will still follow.
 </p>
 
 <p align="center">
-  <img src="assets/digital_release3.png" width="100%">
-</p>
-
-<p align="center">
   Digital Only, meaning the digital document will be sent to
 the Office selected and the document will be then be archived to the office who released it
 </p>
+
+## Document Routing
+
+<p align="center">
+  <img src="assets/38.png" width="49%">
+  <img src="assets/37.png" width="49%">
+</p>
+
+<p align="center">
+Fixed routing of documents can be used by offices with the role to do so, the routing of the document will be followed until the document has been approved/rejected.
+</p>
+<p align="center">
+Route Templates provide ease of access when multiple documents are being handled. Employees can create a template and then simply click it to apply a predefined path and click release.
+</p>
+
+## Document Viewer
+
+
+
 
