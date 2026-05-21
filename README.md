@@ -19,7 +19,7 @@ A modern document tracking and management system, designed for the PGIN.
 ## Offices Main Interface
 
 <p align="center">
-  <img src="assets/30.png" width="80%">
+  <img src="assets/30.png" width="100%">
 </p>
 
 <p align="center">
@@ -27,3 +27,13 @@ A modern document tracking and management system, designed for the PGIN.
 release
 </p>
 
+## Document AI Suggestions
+
+<p align="center">
+  <img src="assets/documentinfo.png" width="100%">
+</p>
+
+<p align="center">
+  The system will suggest the Document Title, Document Info and Submitted by, which
+are also editable and selectable, in case OCR fails to read the document.
+</p>
