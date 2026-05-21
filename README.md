@@ -38,6 +38,23 @@ release
 are also editable and selectable, in case OCR fails to read the document.
 </p>
 
-## Document Filters and Search by
+## Document Filters
 
+<p align="center">
+  <img src="assets/filter2.png" width="49%">
+  <img src="assets/filter3.png" width="49%">
+</p>
 
+<p align="center">
+  Documents can be filtered out by Document Status and Document Types.
+</p>
+
+## Document Search
+
+<p align="center">
+  <img src="assets/cp.png" width="100%">
+</p>
+
+<p align="center">
+  Documents can be searched using their tracking Code, title, document content and correspondent.
+</p>
