@@ -1,11 +1,10 @@
 # Installation Guide
 
-This guide covers a local development setup for **Document Tracking X PaperlessNGX**. You need three parts running: **Paperless-ngx**, the **Laravel API**, and the **React frontend**.
+This guide covers a local development setup for **Document Tracking X PaperlessNGX**. You need four parts running: **Paperless-ngx**, the Local LLM **Mistral** running in **Ollama**, the **Laravel API**, and the **React frontend**.
 
 | Service | Default URL | Folder |
 |---------|-------------|--------|
 | Paperless-ngx | http://localhost:8080 | `paperless/` |
-| Laravel API | http://localhost:8000 | `backend/` |
 | React (Vite) | http://localhost:5173 | `frontend/` |
 
 ---
