@@ -109,6 +109,12 @@ Route Templates provide ease of access when multiple documents are being handled
 
 ## Document Viewer
 
+<p align="center">
+  <img src="assets/40.png" width="49%">
+  <img src="assets/42.png" width="49%">
+</p>
 
-
-
+<p align="center">
+  <img src="assets/39.png" width="49%">
+  <img src="assets/41.png" width="49%">
+</p>
