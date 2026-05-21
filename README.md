@@ -95,5 +95,3 @@ The Document List view provides a powerful interface for managing and tracking d
 ---
 
 
-
-
