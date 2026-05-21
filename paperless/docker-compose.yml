@@ -1,0 +1,91 @@
+version: "3.4"
+
+services:
+  broker:
+    image: redis:7
+    restart: always
+    volumes:
+      - redis_data:/data
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: paperless
+      POSTGRES_USER: paperless
+      POSTGRES_PASSWORD: paperless
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  webserver:
+    image: ghcr.io/paperless-ngx/paperless-ngx:latest
+    restart: always
+    depends_on:
+      - db
+      - broker
+    ports:
+      - "8080:8000"
+    environment:
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_DBHOST: db
+      PAPERLESS_DBUSER: paperless
+      PAPERLESS_DBPASS: paperless
+      PAPERLESS_DBNAME: paperless
+      PAPERLESS_TASK_MONITORING: 1
+      USERMAP_UID: 1000
+      USERMAP_GID: 1000
+    volumes:
+      - ./data:/usr/src/paperless/data
+      - ./media:/usr/src/paperless/media
+      - ./export:/usr/src/paperless/export
+      - ./consume:/usr/src/paperless/consume
+      - paperless_tmp:/tmp/paperless
+
+  worker:
+    image: ghcr.io/paperless-ngx/paperless-ngx:latest
+    restart: always
+    depends_on:
+      - db
+      - broker
+    environment:
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_DBHOST: db
+      PAPERLESS_DBUSER: paperless
+      PAPERLESS_DBPASS: paperless
+      PAPERLESS_DBNAME: paperless
+      USERMAP_UID: 1000
+      USERMAP_GID: 1000
+    volumes:
+      - ./data:/usr/src/paperless/data
+      - ./media:/usr/src/paperless/media
+      - ./export:/usr/src/paperless/export
+      - ./consume:/usr/src/paperless/consume
+      - paperless_tmp:/tmp/paperless
+    command: ["celery", "-A", "paperless", "worker", "--loglevel=info"]
+
+  worker2:
+    image: ghcr.io/paperless-ngx/paperless-ngx:latest
+    restart: always
+    depends_on:
+      - db
+      - broker
+    environment:
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_DBHOST: db
+      PAPERLESS_DBUSER: paperless
+      PAPERLESS_DBPASS: paperless
+      PAPERLESS_DBNAME: paperless
+      USERMAP_UID: 1000
+      USERMAP_GID: 1000
+    volumes:
+      - ./data:/usr/src/paperless/data
+      - ./media:/usr/src/paperless/media
+      - ./export:/usr/src/paperless/export
+      - ./consume:/usr/src/paperless/consume
+      - paperless_tmp:/tmp/paperless
+    command: ["celery", "-A", "paperless", "worker", "--loglevel=info"]
+
+volumes:
+  postgres_data:
+  redis_data:
+  paperless_tmp: 

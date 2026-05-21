@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Secrets (use .env.example as template)
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Laravel / PHP
+backend/vendor/
+backend/node_modules/
+backend/public/build/
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/.phpunit.result.cache
+
+# Paperless local runtime, media, and DB (track docker-compose only)
+paperless/data/
+paperless/media/
+
+# Optional local notes
+*.local
