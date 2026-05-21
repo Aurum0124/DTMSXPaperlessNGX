@@ -23,6 +23,7 @@ A modern document tracking and management system, designed for the PGIN.
 </p>
 
 <p align="center">
-  P
+  Main office interface, where a multi + modal is used to add, receive, and
+release
 </p>
 
