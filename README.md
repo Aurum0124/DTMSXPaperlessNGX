@@ -125,5 +125,30 @@ This feature allows authorized employees to view documents, access document info
 
 ## Digital Cabinets
 
+<p align="center">
+  <img src="assets/cabinet1.png" width="49%">
+  <img src="assets/cabinet2.png" width="49%">
+</p>
+
+<p align="center">
+This feature allows offices to create digital cabinets and folders that replicate the structure of physical cabinets, drawers, and folders for both digital and physical archiving purposes.
+</p>
 
 ## Digital Archiving
+
+<p align="center">
+  <img src="assets/44.png" width="100%">
+</p>
+<p align="center">
+This feature can be used to archive the digital copy of the document, this will only show
+to documents that have been approved or rejected
+</p>
+
+<p align="center">
+  <img src="assets/45.png" width="49%">
+  <img src="assets/46.png" width="49%">
+</p>
+
+<p align="center">
+This feature enables offices to archive documents directly using designated cabinets and folders, while also allowing digital copies of documents to be forwarded to the appropriate office responsible for archiving.
+</p>
