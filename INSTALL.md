@@ -68,14 +68,6 @@ The API should be available at **http://localhost:8000**.
 | `PAPERLESS_URL` | Paperless base URL (default `http://localhost:8080`) |
 | `PAPERLESS_TOKEN` | API token from Paperless |
 
-(AI Suggestions):
-
-| Variable | Description |
-|----------|-------------|
-| `TITLE_SUGGESTION_MODE` | `llm_with_ocr_fallback` (default), `ocr`, or `llm` |
-| `OLLAMA_URL` | Ollama endpoint (default `http://localhost:11434`) |
-| `OLLAMA_MODEL` | Model name (default `mistral`) |
-
 ### Database
 
 The default `.env.example` uses **SQLite** (`DB_CONNECTION=sqlite`). Migrations create the database file automatically.
