@@ -15,6 +15,7 @@ This guide covers a local development setup for **Document Tracking X PaperlessN
 - **PHP 8.2+** with extensions: `openssl`, `pdo`, `mbstring`, `tokenizer`, `xml`, `ctype`, `json`, `fileinfo`
 - **Composer**
 - **Node.js 18+** and **npm**
+- **Ollama** and **Mistral**
 
 ---
 
@@ -67,7 +68,7 @@ The API should be available at **http://localhost:8000**.
 | `PAPERLESS_URL` | Paperless base URL (default `http://localhost:8080`) |
 | `PAPERLESS_TOKEN` | API token from Paperless |
 
-Optional (title suggestions):
+(AI Suggestions):
 
 | Variable | Description |
 |----------|-------------|
