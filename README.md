@@ -122,3 +122,8 @@ Route Templates provide ease of access when multiple documents are being handled
 <p align="center">
 This feature allows authorized employees to view documents, access document information through a side panel displaying the route, status, notes, and history, add notes, endorse documents for fixed or non-fixed routing with endorsement details shown on the side panel, and approve or reject submitted documents with remarks based on assigned roles.
 </p>
+
+## Digital Cabinets
+
+
+## Digital Archiving
