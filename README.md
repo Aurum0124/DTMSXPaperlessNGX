@@ -70,4 +70,14 @@ physical document.
 
 ## Document Release Types
 
+<p align="center">
+  <img src="assets/36.png" width="100%">
+</p>
 
+<p align="center">
+  Standard release, with the use of the barcode for receiving and releasing.
+</p>
+
+<p align="center">
+  <img src="assets/36.png" width="100%">
+</p>
