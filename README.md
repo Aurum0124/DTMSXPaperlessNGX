@@ -49,6 +49,12 @@ are also editable and selectable, in case OCR fails to read the document.
   Documents can be filtered out by Document Status and Document Types.
 </p>
 
+## Document Barcode
+
+<p align="center">
+  <img src="assets/cp.png" width="100%">
+</p>
+
 ## Document Search
 
 <p align="center">
